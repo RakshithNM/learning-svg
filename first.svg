@@ -1,3 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg">
-  <circle r="50"/>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"> 
+  <circle r="25%" cx="50%" cy="50%" fill="none" stroke="#e60" stroke-width="25" />
+  <rect x="10%" y="50%" width="80%" height="10%" fill="cyan" stroke="#000" stroke-width="20" />
+  <ellipse cx="50%" cy="50%" rx="5%" ry="45%" fill="yellow" stroke="purple" stroke-width="20" />
 </svg>
