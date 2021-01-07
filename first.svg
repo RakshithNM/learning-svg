@@ -1,12 +1,22 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"> 
-  <circle r="25%" cx="50%" cy="50%" fill="none" stroke="#e60" stroke-width="25" />
-  <rect x="10%" y="50%" width="80%" height="10%" fill="cyan" stroke="#000" stroke-width="20" />
-  <ellipse cx="50%" cy="50%" rx="5%" ry="45%" fill="yellow" fill-opacity="0.4" stroke="purple" stroke-width="20" />
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <!--<circle r="25%" cx="50%" cy="50%" fill="none" stroke="#e60" stroke-width="25" />-->
+  <!--<rect x="10%" y="50%" width="80%" height="10%" fill="cyan" stroke="#000" stroke-width="20" />-->
+  <!--<ellipse cx="50%" cy="50%" rx="5%" ry="45%" fill="yellow" fill-opacity="0.4" stroke="purple" stroke-width="20" />-->
   <!--<line x2="300" y2="100" stroke="green" stroke-width="10" stroke-linecap="round" />-->
   <!--<rect x="50" y="50" width="300" height="170" rx="90" ry="50" stroke="darkseagreen" stroke-width="10" fill="lightgray" fill-opacity="0.6" />-->
   <!--<circle cx="150" cy="150" r="100" stroke="darkseagreen" stroke-width="10" fill="grey" fill-opacity="0.6" />-->
   <!--<ellipse cx="110" cy="55" rx="70" ry="35" stroke="darkseagreen" stroke-width="0.8" fill="lightgray" fill-opacity="0.6" />-->
-  <polyline points="200,60 240,230 310,230 350,60" fill="lightcyan" fill-opacity="0.7" stroke="darkviolet" stroke-width="25" stroke-linecap="round" stroke-opacity="0.2" />
+  <!--<polyline points="200,60 240,230 310,230 350,60" fill="lightcyan" fill-opacity="0.7" stroke="darkviolet" stroke-width="25" stroke-linecap="round" stroke-opacity="0.2" />-->
 
-  <polygon points="100,50 115,120 150,150 115,180 100,250 85,180 50,150 85,120" fill="darkorange" fill-opacity="0.5" stroke="papayawhip" stroke-width="20" stroke-opacity="0.7" stroke-linejoin="miter"/>
+  <!--<polygon points="100,50 115,120 150,150 115,180 100,250 85,180 50,150 85,120" fill="darkorange" fill-opacity="0.5" stroke="papayawhip" stroke-width="20" stroke-opacity="0.7" stroke-linejoin="miter"/>-->
+
+  <!--<circle xmlns="http://www.w3.org/2000/svg" cx="40" cy="40" r="20" stroke="darkslategray" stroke-width="20" stroke-opacity="0.5" fill="lightslategray" fill-opacity="0.5"/>-->
+  <path stroke="black" d="M 50 50 L 150 150"/>
+  <path d="M 150 50 L 250 150 350 100" fill="none" stroke="darkslategray" />
+
+  <path d="M 70,290 L 150,150 200,250 40,250 100,150 170,290" />
+  <path d="M 70,290 L 150,150 200,250 40,250 100,150 170,290" fill-rule="evenodd" transform="translate(250,0)" />
+
+  <path d="M 100,350 300,100 500,350" fill="none" stroke="black" stroke-width="20" transform="translate(500,0)" />
+  <path d="M 250,320 250,220 350,220 350,320" fill="none" stroke="black" stroke-width="20" transform="translate(500,0)" />
 </svg>
